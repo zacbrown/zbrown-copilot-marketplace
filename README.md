@@ -10,8 +10,7 @@ With [GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli
 ```sh
 copilot plugin marketplace add zacbrown/zbrown-copilot-marketplace
 copilot plugin marketplace browse zbrown-copilot-marketplace
-copilot plugin install advanced-security@zbrown-copilot-marketplace
-copilot plugin install workiq@zbrown-copilot-marketplace
+copilot plugin install review-all@zbrown-copilot-marketplace
 copilot plugin list
 ```
 
@@ -22,10 +21,9 @@ directory instead: `copilot plugin marketplace add /absolute/path/to/zbrown-copi
 
 These entries reference real, externally maintained plugins rather than placeholder packages:
 
-| Plugin | Purpose | Upstream documentation |
-| --- | --- | --- |
-| `advanced-security` | GitHub Advanced Security workflows, including dependency and secret scanning | [github/copilot-advanced-security-plugin](https://github.com/github/copilot-advanced-security-plugin) |
-| `workiq` | Microsoft 365 workflows for email, meetings, documents, and Teams | [microsoft/work-iq](https://github.com/microsoft/work-iq) |
+| Plugin       | Purpose                                                                                       | Upstream documentation                                                                                          |
+| ------------ | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `review-all` | Multi-axis code review with custom agents, deterministic checks, and independent verification | [zacbrown/any-harness-review-all](https://github.com/zacbrown/any-harness-review-all/blob/main/docs/COPILOT.md) |
 
 Review each upstream project's prerequisites, authentication, permissions, and
 license before installing. These plugins may access sensitive data or perform
