@@ -1,0 +1,31 @@
+{
+  "name": "zbrown-copilot-marketplace",
+  "owner": {
+    "name": "zacbrown"
+  },
+  "metadata": {
+    "description": "A curated marketplace for GitHub Copilot plugins and skills.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "advanced-security",
+      "description": "GitHub Advanced Security workflows, including dependency and secret scanning.",
+      "source": {
+        "source": "github",
+        "repo": "github/copilot-advanced-security-plugin"
+      },
+      "repository": "https://github.com/github/copilot-advanced-security-plugin"
+    },
+    {
+      "name": "workiq",
+      "description": "Work with Microsoft 365 email, meetings, documents, and Teams using WorkIQ.",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/work-iq",
+        "path": "plugins/workiq"
+      },
+      "repository": "https://github.com/microsoft/work-iq"
+    }
+  ]
+}
