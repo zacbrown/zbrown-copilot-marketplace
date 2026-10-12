@@ -26,6 +26,15 @@
         "path": "plugins/workiq"
       },
       "repository": "https://github.com/microsoft/work-iq"
+    },
+    {
+      "name": "review-all",
+      "description": "Native Copilot multi-axis code review with twelve custom agent profiles, deterministic checks, and independent verification. Requires Python >=3.11, uv, Git, and explicit runtime setup.",
+      "source": {
+        "source": "github",
+        "repo": "zacbrown/any-harness-review-all"
+      },
+      "repository": "https://github.com/zacbrown/any-harness-review-all"
     }
   ]
 }
